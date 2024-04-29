@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: food-truck
+cors:
+  origins: ${CORS_ORIGIN:http://localhost:3000, http://localhost:3001}
+  allow-headers: ${CORS_ALLOW_HEADERS:*}
+  expose-headers: ${CORS_EXPOSE_HEADERS:}
